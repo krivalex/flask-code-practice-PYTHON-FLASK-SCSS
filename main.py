@@ -5,7 +5,7 @@ import openai
 openai.api_key = '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'
 app = Flask(__name__)
 
-@app.route("/plankton-app-d5pi9.ondigitalocean.app/")
+@app.route("/")
 def hello_world():
     return render_template('openai.html')
 
