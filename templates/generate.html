@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel= "stylesheet" type= "text/css" href= "../static/style.css ">
+  <title>ПОЛУЧИЛОСЬ!</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="head">
+        <h1 class="project">У тебя получилось!!!</h1>
+    </div>
+
+    <div class="this_content">
+      <div class="good">
+        <p>Ты сделал свой первый сайт с исскуственным интеллектом</p>
+      </div>  
+      <div class="good">
+        <p>Теперь ты можешь генерировать картинки с помощью нейронных сетей</p>
+      </div>
+      <form action="http://127.0.0.1:5000/generate-img" method="post" class="generate">
+          
+          <input type="text" placeholder="Текст тут" name="text">
+          <button type="submit">
+              Сгенерировать картинку
+          </button>
+
+      </form>
+
+      <footer>
+        <p>Сделано на пробном уроке в Atmosphere Education</p>
+      </footer>
+  </div>
+
+</div>
+</body>
+</html>
