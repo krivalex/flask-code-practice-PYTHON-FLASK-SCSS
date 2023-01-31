@@ -10,7 +10,7 @@ def hello_world():
     return render_template('openai.html')
 
 
-@app.route("/plankton-app-d5pi9.ondigitalocean.app/generate-img", methods=['GET', 'POST'])
+@app.route("/generate-img", methods=['GET', 'POST'])
 def generate_img():
    
     if request.method == 'POST':
@@ -29,7 +29,7 @@ def generate_img():
             return 'Ошибка генерации'  
     return render_template('openai.html')
 
-@app.route("/plankton-app-d5pi9.ondigitalocean.app/good-project", methods=['GET', 'POST'])
+@app.route("/good-project", methods=['GET', 'POST'])
 def good_project():
    
     if request.method == 'POST':
