@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from flask import request
 import openai
 
-openai.api_key = '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'
+openai.api_key = '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'
 app = Flask(__name__)
 
 @app.route("/")
